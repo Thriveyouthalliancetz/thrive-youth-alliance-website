@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THRIVE YOUTH ALLIANCE (TYA)</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f7f7f7;
+color:#222;
+}
+
+header{
+background:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+position:sticky;
+top:0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    height:80px;
+    width:80px;
+    object-fit:contain;
+    border-radius:50%;
+}
+
+.logo div{
+    display:flex;
+    flex-direction:column;
+}
+
+.logo h2{
+    color:#f57c00;
+    font-size:24px;
+    font-weight:700;
+    margin:0;
+}
+
+.logo p{
+    color:#555;
+    font-size:13px;
+    margin-top:3px;
+    font-weight:400;
+}
+.logo img{
+height:65px;
+margin-right:15px;
+}
+
+.logo h2{
+color:#f57c00;
+}
+
+nav a{
+text-decoration:none;
+margin-left:20px;
+font-weight:600;
+color:#333;
+}
+
+nav a:hover{
+color:#f57c00;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+font-size:22px;
+margin:20px 0;
+}
+
+.btn{
+display:inline-block;
+background:#f57c00;
+padding:15px 35px;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#d96b00;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:36px;
+margin-bottom:40px;
+color:#f57c00;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#f57c00;
+}
+
+.registration{
+background:white;
+max-width:700px;
+margin:auto;
+padding:40px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.registration input,
+.registration select,
+.registration textarea{
+
+width:100%;
+padding:15px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:8px;
+
+}
+
+.registration button{
+
+width:100%;
+padding:15px;
+background:#f57c00;
+color:white;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+
+}
+
+.registration button:hover{
+background:#d96b00;
+}
+
+footer{
+
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="logo.png">
+
+<h2>THRIVE YOUTH ALLIANCE</h2>
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Programs</a>
+<a href="#">Membership</a>
+<a href="#">Partners</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<div class="hero">
+
+<div>
+
+<h1>Empowering Youth.<br>Transforming Communities.</h1>
+
+<p>Building future leaders across Tanzania.</p>
+
+<a class="btn" href="#register">Become a Member</a>
+
+</div>
+
+</div>
+
+<section>
+
+<h2 class="title">About TYA</h2>
+
+<p style="text-align:center;font-size:18px;max-width:900px;margin:auto;">
+THRIVE YOUTH ALLIANCE (TYA) is a youth-led organization headquartered in Dar es Salaam, Tanzania, dedicated to empowering young people through leadership, entrepreneurship, education, mentorship, health awareness, innovation, and community service.
+</p>
+
+</section>
+
+<section>
+
+<h2 class="title">Our Programs</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Leadership</h3>
+<p>Developing future leaders.</p>
+</div>
+
+<div class="card">
+<h3>Entrepreneurship</h3>
+<p>Creating successful young entrepreneurs.</p>
+</div>
+
+<div class="card">
+<h3>Education</h3>
+<p>Training and career development.</p>
+</div>
+
+<div class="card">
+<h3>Health</h3>
+<p>Promoting healthy communities.</p>
+</div>
+
+<div class="card">
+<h3>Relationship Skills</h3>
+<p>Building positive social interaction.</p>
+</div>
+
+<div class="card">
+<h3>Community Service</h3>
+<p>Giving back to society.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="register">
+
+<h2 class="title">Online Membership Registration</h2>
+
+<div class="registration">
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="number" placeholder="Age" required>
+
+<select required>
+
+<option>Select Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+<select required>
+
+<option>Area of Interest</option>
+
+<option>Leadership</option>
+
+<option>Entrepreneurship</option>
+
+<option>Education</option>
+
+<option>Health</option>
+
+<option>Relationship Skills</option>
+
+<option>Innovation</option>
+
+<option>Community Service</option>
+
+</select>
+
+<textarea rows="5" placeholder="Why do you want to join TYA?"></textarea>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Contact Us</h2>
+
+<p style="text-align:center;font-size:18px;">
+
+📍 Dar es Salaam, Tanzania
+
+<br><br>
+
+📧 thriveyouthalliancetz@gmail.com
+
+</p>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 THRIVE YOUTH ALLIANCE (TYA)
+
+<br>
+
+Empowering Youth • Transforming Communities
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
